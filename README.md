@@ -36,7 +36,7 @@ Puedes encontrar el código fuente del frontend en el siguiente repositorio de G
 
    Abre tu navegador y ve a: [http://localhost:4200/](http://localhost:4200/)
 
-##Ejecutarlo con Docker
+###Ejecutarlo con Docker
 
 1.- **Asegurate de estar en la carpeta**
    ```bash
@@ -72,7 +72,7 @@ Puedes encontrar el código fuente del frontend en el siguiente repositorio de G
    ```bash
    php artisan serve
    ```
-##Ejecutarlo con Docker
+###Ejecutarlo con Docker
 
 1.- **Asegurate de estar en la carpeta**
    ```bash
