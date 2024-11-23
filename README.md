@@ -38,16 +38,18 @@ Puedes encontrar el código fuente del frontend en el siguiente repositorio de G
 
 ### Ejecutar con Docker
 
-1.- **Construir la imagen**
+1. **Construir la imagen**:
 
    ```bash
    docker build -t angular-frontend .
    ```
-2.- **Ejecutar el contenedor**
+   
+2. **Ejecutar el contenedor**:
 
    ```bash
    docker run --rm -p 4200:4200 angular-frontend
    ```
+   
 3. **Navegar a la API**:
 
    El backend servirá los endpoints de la API. Puedes acceder a ellos en: [http://localhost:4200](http://localhost:4200)
@@ -87,16 +89,18 @@ Puedes encontrar el código fuente del frontend en el siguiente repositorio de G
 
 ### Ejecutar con Docker
 
-1.- **Construir la imagen**
+1. **Construir la imagen**:
 
    ```bash
    docker build -t laravel-backend .
    ```
-2.- **Ejecutar el contenedor**
+   
+2. **Ejecutar el contenedor**:
 
    ```bash
    docker run --rm -p 8000:8000 laravel-backend
    ```
+   
 3. **Navegar a la API**:
 
    El backend servirá los endpoints de la API. Puedes acceder a ellos en: [http://127.0.0.1:8000/elementos](http://127.0.0.1:8000/elementos)
