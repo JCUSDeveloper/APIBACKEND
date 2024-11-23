@@ -36,6 +36,13 @@ Puedes encontrar el código fuente del frontend en el siguiente repositorio de G
 
    Abre tu navegador y ve a: [http://localhost:4200/](http://localhost:4200/)
 
+##Ejecutarlo con Docker
+
+1.- **Asegurate de estar en la carpeta**
+   ```bash
+   docker build -t angular-frontend . && docker run --rm -p 4200:4200 angular-frontend
+   ```
+
 ### Backend
 
 1. **Instalar dependencias de PHP**:
@@ -65,7 +72,12 @@ Puedes encontrar el código fuente del frontend en el siguiente repositorio de G
    ```bash
    php artisan serve
    ```
+##Ejecutarlo con Docker
 
+1.- **Asegurate de estar en la carpeta**
+   ```bash
+   docker build -t laravel-backend . && docker run --rm -p 8000:8000 laravel-backend
+   ```
 4. **Navegar a la API**:
 
    El backend servirá los endpoints de la API. Puedes acceder a ellos en: [http://127.0.0.1:8000/elementos](http://127.0.0.1:8000/elementos)
